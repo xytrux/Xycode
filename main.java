@@ -12,7 +12,6 @@ class editor extends JFrame implements ActionListener {
 	editor()
 	{
 		f = new JFrame("Xycode");
-
 		try {
 			UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 
@@ -67,10 +66,13 @@ class editor extends JFrame implements ActionListener {
 		mb.add(m2);
 		mb.add(mc);
 
+		Image icon = Toolkit.getDefaultToolkit().getImage("xycode.jpg");
+
 		f.setJMenuBar(mb);
 		f.add(t);
 		f.setSize(new Dimension(500, 500));
 		f.setVisible(true);
+		f.setIconImage(icon);
 	}
 
 	// button fuctions
