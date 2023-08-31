@@ -3,7 +3,6 @@ import javax.swing.*;
 import java.io.*;
 import java.awt.event.*;
 import javax.swing.plaf.metal.*;
-import javax.swing.text.*;
 
 @SuppressWarnings("serial")
 class editor extends JFrame implements ActionListener {
